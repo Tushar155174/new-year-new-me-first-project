@@ -227,3 +227,9 @@ footer {
   border-radius: 10px;
   text-decoration: #fff;
 }
+button{
+    cursor: pointer;
+}
+button:hover{
+    color: blue;
+}
