@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+.header-image {
+  width: 50%;
+}
+.header-content {
+  width: 50%;
+}
+.header-image > img {
+  width: 1261px;
+  /* height: 808px; */
+}
+.header-h1 {
+  color: #151414;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 65px;
+  font-weight: 700;
+  padding-right: 200px;
+}
+.header-paragraph {
+  color: #444343;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-right: 200px;
+  margin-top: 24px;
+}
+.header-button {
+  padding: 20px 25px;
+  border-radius: 5px;
+  background: #f15b22;
+  color: #fff;
+  border: none;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 278px;
+  margin-top: 32px;
+}
+.my-area {
+  display: flex;
+  align-items: center;
+}
+.my-image-area {
+  margin-top: 140px;
+  width: 50%;
+}
+.my-image-area {
+  width: 700px;
+  height: auto;
+}
+.my-content-area {
+  width: 50%;
+  margin-top: 300px;
+  margin-left: 50px;
+}
+.my-content-h3 {
+  padding-right: 300px;
+  color: #151414;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 700;
+}
+.my-content-paragraph {
+  margin-top: 24px;
+  margin-right: 170px;
+  color: #444343;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.check-sign {
+  margin-top: 16px;
+}
+.rightcheck {
+  color: #444343;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 8px;
+}
+.aqua-right-sign {
+  color: rgba(0, 255, 255, 0.728);
+  width: 24px;
+  height: 24px;
+}
+.my-plan-area-heading {
+  text-align: center;
+  margin-top: 100px;
+}
+.my-plan-area {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.icon-image {
+  width: 50px;
+}
+.icon-h4 {
+  color: #151414;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 30px;
+  font-weight: 700;
+}
+.icon-paragraph {
+  color: var(--dark-03, #737272);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 25px;
+  font-weight: 500;
+}
+.call-now-area {
+  display: flex;
+  align-items: center;
+  margin: 130px 230px;
+  background-image: url("images/watch.png"),
+    linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  height: 210px;
+  border-radius: 10px;
+  /* background-image: linear-gradient(45deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 50%); */
+}
+.call-now-area-h1 {
+  width: 459px;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: left;
+  margin-left: 50px;
+}
+.call-now-button {
+  margin-top: 20px;
+  margin-left: 50px;
+  padding: 15px 30px;
+  color: red;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  height: 400px;
+  background: #151414;
+}
+.footer-content {
+  width: 50%;
+  margin-left: 230px;
+}
+.footer-h1 {
+  color: #f8f8f8;
+  font-family: Work Sans;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.footer-description {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+.footer-email {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+.footer-number {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+.fty {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-form {
+  width: 50%;
+  margin-left: 120px;
+}
+.footer-form-h1 {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.footer-input {
+  padding: 20px 150px 20px 20px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  background: #151414;
+  display: block;
+  margin-bottom: 15px;
+}
+.footer-button {
+  padding: 20px 35px;
+  color: #f15b22;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 10px;
+  text-decoration: #fff;
+}
